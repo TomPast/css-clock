@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import invert from 'invert-color';
-import Particles from 'react-particles-js';
 import './App.css'
 
 function App() {
