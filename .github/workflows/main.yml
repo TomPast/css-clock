@@ -37,11 +37,11 @@ jobs:
       run: find dist/ -print
       
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         ftp-server: ${{ secrets.ftp_server }}
         ftp-username: ${{ secrets.ftp_username }}
         ftp-password: ${{ secrets.ftp_password }}
         local-dir: dist
-        server-dir: www/css-clock
+        server-dir: /www/css-clock
 
