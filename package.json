@@ -1,18 +1,16 @@
 {
   "name": "css-clock",
   "version": "0.0.0",
-  "homepage": ".",
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "serve": "vite preview"
   },
   "dependencies": {
     "invert-color": "^2.0.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "react-particles-js": "^3.4.1",
-    "react-router-dom": "^5.2.0"
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react-refresh": "^1.3.1",
