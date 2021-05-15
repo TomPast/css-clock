@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+.App {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.particles{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Concert One', cursive;
+  font-weight: lighter;
+  font-size: 8rem;
+}
