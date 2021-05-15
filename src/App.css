@@ -22,3 +22,9 @@
   font-weight: lighter;
   font-size: 8rem;
 }
+
+@media screen and (max-width: 800px){
+  .title{
+    font-size: 5rem;
+  }
+}
