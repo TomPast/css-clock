@@ -1,7 +1,7 @@
 {
   "name": "css-clock",
   "version": "0.0.0",
-  "homepage": "https://www.tompastor.fr/css-clock/",
+  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
